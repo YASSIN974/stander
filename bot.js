@@ -13,7 +13,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame('Dictionary Avatar`);
+  client.user.setGame(`Dictionary Avatar`);
 }); // 
 const prefix = '*';
 var dat = JSON.parse("{}");
