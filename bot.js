@@ -8,7 +8,7 @@ const Canvas = require('canvas');
 const data = {}
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`By : lg server.`);
+      console.log(`By : Dictionary Avatar server.`);
         console.log(`---------------`);
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
@@ -104,7 +104,7 @@ const w = ['./welcome.png'];
 })
 });
 
-const devs = ["439187325503930369","332713449215754242"]
+const devs = ["489794513204805632","332713449215754242"]
 
 const adminprefix = "*";
 client.on('message', message => {
